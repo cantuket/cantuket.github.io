@@ -7,5 +7,12 @@ body {
 
 .spillover-image {
     float: right;
-    margin-top: -200px;
+    margin-top: -15vw;
+    width: 40%;
+}
+
+@media print, screen and (max-width: 40em) {
+    .spillover-image {
+        margin-top: -30vw;
+    }   
 }

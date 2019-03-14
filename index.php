@@ -1,3 +1,5 @@
+<?php ?>
+
 <!doctype html>
 <html lang=en>
 
@@ -23,14 +25,15 @@
             <img src="/dist/images/hp_logo.png" />
         </div>
         <div class="top-bar-right">
-            <div class="grid-x align-middle">
+            <div class="spacer-inline spacer10 show-for-small-only"></div>
+            <div class="grid-x align-middle align-center">
                 <h3 
                     class="cell shrink text-center"
                     style="margin-right: 15px;line-height: 1"
                 >
                     Call Us<br>Today
                 </h3>
-                <h2 class="cell auto">(212) 691 - 0713</h2>
+                <h2 class="cell shrink">(212) 691 - 0713</h2>
             </div>
         </div>
     </div>
@@ -45,7 +48,7 @@
         <div class="grid-x">
             <div class="cell small-12">
                 <p class="font-weight-medium">
-                    <img class="spillover-image" src="/dist/images/hardhart.png" width="400px" />
+                    <img class="spillover-image" src="/dist/images/hardhart.png" />
                     <span class="text-orange font-weight-black">Strategic Operational Service Corp.</span>
                     is a local general contractor servicing the New York metropolitan and surrounding areas. We provide general contracting services for interior commercial spaces on any scale, as well as homes and residential facilities. Being in the building service business for over 100 years, Strategic Operational provides a seamless, clean, and organized operation that gives our clientele confidence in our service regardless of the location or job type.
                     
@@ -56,29 +59,34 @@
             </div>
         </div>
     </div>
-    <div class="spacer-inline spacer70"></div>
-    <footer>
-        <div class="grid-container">
-            <div class="grid-x grid-margin-x">
-                <div class="cell medium-6 small-12">
-                    <h4 class="text-left text-orange font-weight-black">
-                        Strategic Operational services             
-                    </h4>
-                    <h4 class="text-left text-black font-weight-regular">
-                        145 West 28th Street, Suite 9, New York, NY 10001
-                    </h4>
-                </div>
-                <div class="cell medium-6 small-12">
-                    <h4 class="text-right text-orange font-weight-black">
-                        Tel: (212) 691-0713
-                    </h4>
-                    <h4 class="text-right text-black font-weight-regular">
-                        info@StrategicOperational.com
-                    </h4>
+    <div class="spacer-inline spacer70 show-for-medium"></div>
+    <div class="spacer-inline spacer30 show-for-small-only"></div>
+    <div class="grid-container">
+        <footer>
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell medium-6 small-12">
+                        <h4 class="text-left text-orange font-weight-black">
+                            Strategic Operational services             
+                        </h4>
+                        <h4 class="text-left text-black font-weight-regular">
+                            145 West 28th Street, Suite 9, New York, NY 10001
+                        </h4>
+                        <div class="spacer-inline spacer10"></div>
+                    </div>
+                    <div class="cell medium-6 small-12">
+                        <h4 class="text-right text-orange font-weight-black">
+                            Tel: (212) 691-0713
+                        </h4>
+                        <h4 class="text-right text-black font-weight-regular">
+                            info@StrategicOperational.com
+                        </h4>
+                        <div class="spacer-inline spacer10"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <script type="text/javascript" src="/node_modules/foundation-sites/dist/js/foudation.min..js"></script>
 </body>

@@ -1,5 +1,15 @@
 footer {
     border-top: solid 4px orange;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer h4 {
+    margin-bottom:0;
+}
+
+@media print, screen and (max-width: 40em) {
+    footer .text-left,
+    footer .text-right {
+        text-align: center !important;
+    }
 }
