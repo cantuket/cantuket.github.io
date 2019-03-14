@@ -1,0 +1,11 @@
+body {
+    background-image: url(/dist/images/hp_bkd_floorplan.svg);
+    background-size:cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.spillover-image {
+    float: right;
+    margin-top: -200px;
+}
