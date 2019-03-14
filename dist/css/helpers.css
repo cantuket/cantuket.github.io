@@ -1,0 +1,16 @@
+.padding-sides-1 {
+    padding-left:1rem !important;
+    padding-right:1rem !important;
+}
+.padding-sides-2 {
+    padding-left:2rem !important;
+    padding-right:2rem !important;
+}
+.padding-sides-3 {
+    padding-left:3rem !important;
+    padding-right:3rem !important;
+}
+.padding-sides-4 {
+    padding-left:4rem !important;
+    padding-right:4rem !important;
+}
